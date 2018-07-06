@@ -1,0 +1,78 @@
+* {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+.wrap {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.wrap header {
+  width: 100%;
+  height: 50px;
+  background: green;
+}
+
+.wrap section {
+  width: 100%;
+  flex: 1;
+  background: #fff;
+}
+
+.wrap section .box {
+  width: 100%;
+  height: 150px;
+}
+
+.wrap section .box .swiper-wrapper {
+  margin-top: 10px;
+}
+
+.wrap section .box .swiper-wrapper .swiper-slide {
+  display: flex;
+}
+
+.wrap section .box .swiper-wrapper .swiper-slide .min_box {
+  width: 30%;
+  margin-left: 8px;
+}
+
+.wrap section .box .swiper-wrapper .swiper-slide .min_box p {
+  font-size: 11px;
+}
+
+.wrap section .box .swiper-wrapper .swiper-slide .min_box p span {
+  font-size: 14px;
+  color: red;
+}
+
+.wrap section .box .nav_Fen {
+  width: 100%;
+  text-align: center;
+}
+
+.wrap section .box .nav_Fen span {
+  margin-left: 10px;
+}
+
+.wrap footer {
+  width: 100%;
+  height: 50px;
+  background: green;
+}
